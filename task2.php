@@ -8,9 +8,7 @@ if ($name === "kento") {
 } else {
     echo "$nameではありません。";
 }
-?>
 
-<?php
 //課題2 for文を使って、1から10000までの合計の値を表示してください。
 $total = 0;
 for ($i=1; $i <= 10000; $i++) {
@@ -18,9 +16,6 @@ for ($i=1; $i <= 10000; $i++) {
 }
 echo $total;
 
-?>
-
-<?php
 //課題3　$fruits に配列で好きなフルーツを5個代入し、foreach文で順番に出力してください。
 $fruits = array("grape","peach","apple","lemon","orange");
 foreach ($fruits as $fruit) {
@@ -28,9 +23,7 @@ foreach ($fruits as $fruit) {
     echo "\n";
 }
 
-?>
 
-<?php
 //課題4　【応用】 次のプログラムのバグを修正し、1から100までの間で5の倍数のみ表示するようにしてみてください。
 /* for文の始めの値を定義する */
 $start = 1;
