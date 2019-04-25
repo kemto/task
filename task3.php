@@ -11,16 +11,17 @@ function sum($a,$b) {
 }
 
 /*3.$arr という配列の仮引数を持ち、数値が入った配列array(1, 3, 5 ,7, 9) を渡すとその要素をすべてかけた結果を返す関数を作成してください。*/
-function arr_sum($arr) {
-    $result = 0;
+function arr_multi($arr) {
+    $result = 1;
     foreach ($arr as $ar) {
-        $result += $ar;
+        $result *= $ar;
+        
     }
     echo $result;
 }
 
 $arr = array(1,3,5,7,9);
-arr_sum($arr);
+arr_multi($arr);
 
 /*4.【応用】　次のプログラムは、配列の中で一番大きい値を返す max_array という関数を実装しようとしています。途中の部分を完成させてください。*/
  function max_array($arr){
